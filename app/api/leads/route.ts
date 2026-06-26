@@ -132,7 +132,7 @@ The LeadFlow AI Team
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'LeadFlow AI <noreply@leadflow.ai>',
+        from: "LeadFlow AI <onboarding@resend.dev>",
         to: lead.email,
         subject: 'Thank you for contacting LeadFlow AI',
         html,
